@@ -1,0 +1,719 @@
+<!doctype html>
+<html lang="en">
+<head>
+        <!--meta tags-->
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="portfolio template based on HTML5">
+        <meta name="keywords" content="onepage, developer, resume, cv, ,personal, portfolio, personal resume, clean, modern">
+        <meta name="author" content="Manash Kanti Sarker">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--template title-->
+        <title>CInGrous Labs</title>
+
+        <!--==========Favicon==========-->
+
+        <link rel="apple-touch-icon" sizes="57x57" href="favicon/logo.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="favicon/logo.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="favicon/logo.pngfavicon/logo.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="favicon/logo.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="favicon/logo.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="favicon/logo.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="favicon/logo.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="favicon/logo.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/logo.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="favicon/logo.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/logo.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="favicon/logo.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/logo.png">
+        <link rel="manifest" href="favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        
+        <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+
+        <!--========== Theme Fonts ==========-->
+
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,600,700,800" rel="stylesheet">
+
+        <!--Font Awesome css-->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+
+        <!--Bootstrap css-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <!--Magnific popup css-->
+        <link rel="stylesheet" href="css/magnific-popup.css">
+
+        <!--Owl carousel css-->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.default.css">
+
+        <!--Normalizer css-->
+        <link rel="stylesheet" href="css/normalize.css">
+
+        <!--Template css-->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--Responsive css-->
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body>
+        <!--preloader starts-->
+
+        <div class="loader_bg"><div class="loader"></div></div>
+
+        <!--preloader ends-->
+
+        <!--navigation area starts-->
+
+            <header class="nav-area navbar-fixed-top">
+                <div class="container">
+                    <div class="row">
+                        <!--main menu starts-->
+
+                            <div class="col-md-12">
+                                <div class="main-menu">
+                                    <div class="navbar navbar-cus">
+                                        <div class="navbar-header">
+                                            <a href="index.html" class="navbar-brand">CInGrous Labs</a>
+                                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                                <span class="sr-only">Toggle navigation</span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                            </button>
+                                        </div>
+
+                                        <div class="navbar-collapse collapse">
+                                            <nav>
+                                                <ul class="nav navbar-nav navbar-right">
+                                                    <li class="active"><a class="smooth-menu" href="#home">Home</a></li>
+                                                    <li><a class="smooth-menu" href="#about">About</a></li>
+                                                    <li><a class="smooth-menu" href="#products">Products</a></li>
+                                                    <li><a class="smooth-menu" href="#services">Services</a></li>
+                                                    <li><a class="smooth-menu" href="#portfolio">Portfolio</a></li>
+                                                    <!--<li><a class="smooth-menu" href="#testimonial">Testimonial</a></li>-->
+                                                    <li><a class="smooth-menu" href="#contact">Contact</a></li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <!--main menu ends-->
+                    </div>
+                </div>
+            </header>
+
+        <!--navigation area ends-->
+
+        <!--slider area starts-->
+            <div id="home"></div>
+            <div class="banner-area" id="slider-area">
+                <div id="particles-js"></div>
+                <div class="banner-table">
+                    <div class="banner-table-cell">
+                        <div class="welcome-text">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2>We are</h2>
+                                        <div class="text-affect"></div>
+                                        <p class="banner-btn"><a href="#contact">Contact Now</a></p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!--slider area ends-->
+
+        <!--About Area Starts-->
+
+        <div class="about-area section-padding">
+            <div class="container">
+                <div class="row" id="about">
+                    <div class="col-md-12">
+                        <div class="section-header">
+                            <h2>About Us</h2>
+                            <p class="line1"></p>
+                            <p class="line2"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 proPic">
+                        <img src="images/logo.png"  alt="about image"> <!--add your image here-->
+                    </div>
+
+
+                    <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 about-text">
+                        <div class="btn-pref btn-group btn-group-justified btn-group-lg" role="group" aria-label="...">
+                            <div class="btn-group" role="group">
+                                <a class="btn btn-primary" href="#tab1" data-toggle="tab">Intro</a>
+                            </div>
+                            <div class="btn-group" role="group">
+                                <a class="btn btn-default" href="#tab2" data-toggle="tab">Mission</a>
+                            </div>
+                            <div class="btn-group" role="group">
+                                <a class="btn btn-default" href="#tab3" data-toggle="tab">Vision</a>
+                            </div>
+                        </div>
+
+                        <div class="tab-content">
+
+                            <div class="tab-pane fade in active" id="tab1">
+                                <div class="row">
+                                    <div class="col-md-12"> <!--add your short Bio here-->
+                                        <h4>CInGrous Labs</h4>
+                                        <p class="justi">CInGrous Labs is one of the system integrator partners offering an entire range of IT integrated products and services. Incorporated in the year 2015, CInGrous Labs has traversed an enriching journey of more than a 3 years and has emerged as one of the growing IT Infrastructure Solution provider supporting customers from small and medium businesses to blue chip clients and also providing a specialist service for the educational institutes. CInGrous Labs has extensive experience in delivering high-quality IT Infrastructure services for all kinds of verticals and technology environments. Driven by a customer oriented approach with focus on absolute standards of operational excellence, each experience has made us develop more innovative solutions provider, and has enabled us to understand business, technology and operational elements in great detail.
+
+We want to empower our customers to be able to reach their goals easily and live a more fulfilling and productive life. CInGrous Labs professionally managed, process and technology driven, focused on Low Power Embedded Devices, Wireless Sensor Networks and Interactive Robotic Platform. Our highly committed and skilled set of professionals will add value by proposing technically superior and commercially competitive solutions. We are confident to position CInGrous Labs as “Single Stop Enterprise Solutions Provider”.</p>
+                                        <div class="socials">
+                    <a href="https://twitter.com/cingrouslabs" target="_blank"> <!--add your twitter profile link-->
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="https://www.facebook.com/cingrouslabs/" target="_blank"> <!--add your facebook profile link-->
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="https://in.linkedin.com/company/cingrous-labs" target="_blank"> <!--add your facebook profile link-->
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </div> 
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade in" id="tab2">
+                                <div class="row">
+                                    <div class="col-md-12"> <!--add your short Bio here-->
+                                        <h4>Mission of CInGrous Labs</h4>
+                                        <p>"To provide high quality products that combine performance with value pricing while establishing a successful relationship with our customer and suppliers."!</p>
+                                        <h4>Our Approach</h4>
+                                        <p>The company philosophy is continuous improvement and integration and with the support of its strong quality management system it focuses on to provide:</p>
+
+<ul>
+<li>High quality services and products that excels customer expectations</li>
+<li>Value for money</li>
+<li>Courteous and pleasant service consistent with professionalism & personalization</li>
+<li>Honest and effective consultation and advice</li>
+<li>A fast delivery of services and products</li>
+<li>Continuous improvement in the services offered</li></ul>
+                                        <div class="socials">
+                    <a href="https://twitter.com/cingrouslabs" target="_blank"> <!--add your twitter profile link-->
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="https://www.facebook.com/cingrouslabs/" target="_blank"> <!--add your facebook profile link-->
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="https://in.linkedin.com/company/cingrous-labs" target="_blank"> <!--add your facebook profile link-->
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade in" id="tab3">
+                                <div class="row">
+                                    <div class="col-md-12"> <!--add your short Bio here-->
+                                        <h4>Our Vision</h4>
+                                        <p>Become the leading innovative solution provider in wireless and low power products.</p>
+                                        <div class="socials">
+                    <a href="https://twitter.com/cingrouslabs" target="_blank"> <!--add your twitter profile link-->
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="https://www.facebook.com/cingrouslabs/" target="_blank"> <!--add your facebook profile link-->
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="https://in.linkedin.com/company/cingrous-labs" target="_blank"> <!--add your facebook profile link-->
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </div> 
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            </div>
+                        </div><br>
+                    </div>
+                </div>
+        </div>
+
+        <!--About Area Ends-->
+        
+        
+        <!--Products starts-->
+         <div class="services-area section-padding">
+            <div class="container">
+                <div id="products" class="row">
+                    <div class="col-md-12">
+                        <div class="section-header">
+                            <h2>Our Products</h2>
+                            <p class="line1"></p>
+                            <p class="line2"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row"><center><div><h2>ATOM KIT</h2><p class="line1"></p>
+                            <p class="line2"></p></div></center>
+                    <div class="col-md-12"><div><img src="images/products/1.png" alt="atomkit" class="g"></div>
+                    <div class="bot justi"><p class="justi just_align">Atom kit is based on the STEM technology, STEM is an acronym for Science, Technology, Engineering and Mathematics.STEM programs are providing students with unique learning opportunities. Cutting edge technology, training systems, curriculum and eLearning solutions position our clients to deliver this learning in a captivating, efficient and fun fashion. Our solutions include drones, automated guided vehicles, robots, a broad range of hands-on engineering science kits and unparalleled eLearning tools for teaching every imaginable STEM discipline.
+</p></div></div>
+                </div><br>
+                <div class="row"><center><div><h2>e-BOT</h2><p class="line1"></p>
+                            <p class="line2"></p></div></center>
+                    <div class="col-md-12"><div><img src="images/products/4.jpg" alt="atomkit" class="pro_image2"></div>
+                    <div class="bot justi"><p>ebot is an educational robot based on graphical programming and Arduino platform. This robot is perfect for learning STEM and robotic knowledge. Perfect choice for robot lovers and beginners to learn robotics, electronics and programming. Beside, ebot is a Smart Robot Car Kit with Ultrasonic Sensor, Light Sensor, Line Tracking Sensor, OLED Display Screen, Bluetooth Module, Infrared Remote Control (Receiver), Free Mobile APP for Arduino. The whole assembly process of ebot only takes 2 minutes, so that you are no longer bothered by the tedious assembly. 
+</p></div></div>
+                </div>
+                <br>
+                <div class="row"><center><div><h2>LORA Mesh</h2><p class="line1"></p>
+                            <p class="line2"></p></div></center>
+                    <div class="col-md-12"><div><img src="images/products/3.jpg" alt="atomkit" class="pro_image1"></div>
+                    <div class="wash justi"><p class="just_align" style="padding-left: 26%">LoRa is emerging new technology which provide efficient RF spectrum with Low Power Long Range. We are developing LoRa based sensor nodes are  actively support for Smart meters, Smart Factory, Smart Water Management applications. The nodes are powered by solar based power system and it has dedicated dashboard to monitor the sensor data’s. It has Machine Learning algorithms to analyse the sensor data.
+ 
+</p></div></div>
+                </div>
+                <br>
+                        <div class="row"><center><div><h2>WashMak</h2></div><p class="line1"></p>
+                            <p class="line2"></p></center>
+                    <div class="col-md-12"><div><img src="images/products/5.jpg" alt="atomkit" class="pro_image2"></div>
+                    <div class="wash justi"><p>WashMak is one of  the new way to manage the washroom maintanence with help of Technology. The Android based application provide excellent task managment, employee corner and report generation features.
+</p></div></div>
+                </div>
+                    
+                      
+                      <div class="row"><center><div><h2>Low Cost RF network</h2></div></center>
+                    <div class="col-md-12"><div class="image_aj"><img src="images/products/6.png" alt="atomkit" class="pro_image1"></div>
+                    <div class="wash justi"><p class="just_align">Low cost RF network provides indoor wireless applications and Data monitoring. We have RF based Floor monitoring system, RF  remote controller, Machine Health monitoring. It has dedicated Low Power systems and User interface to monitor, control the devices.</p></div>
+               </div>
+                </div>
+                       
+        
+        <!--Products Ends-->
+
+        <!--Services Area Starts-->
+
+        <div class="services-area section-padding">
+            <div class="container">
+                <div id="services" class="row">
+                    <div class="col-md-12">
+                        <div class="section-header">
+                            <h2>Our Services</h2>
+                            <p class="line1"></p>
+                            <p class="line2"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="single-services text-center">
+                            <div class="services-icon">
+                                <i class="fa fa-superpowers"></i>
+                            </div>
+                            <div class="services-content">
+                                <h3>STEM</h3> <!--edit the service you give-->
+                                <p>STEM is our Innovative project which is under console.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="single-services text-center">
+                            <div class="services-icon">
+                                <i class="fa fa-globe" aria-hidden="true"></i></i>
+                            </div>
+                            <div class="services-content">
+                                <h3>Web Designing</h3> <!--edit the service you give-->
+                                <p>Designing Webpages is very easy task for us.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="single-services text-center">
+                            <div class="services-icon">
+                                <i class="fa fa-thermometer-quarter" aria-hidden="true"></i>
+                            </div>
+                            <div class="services-content">
+                                <h3>IoT Development</h3> <!--edit the service you give-->
+                                <p>Developing Innovative Projects to make future simpler. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="single-services text-center">
+                            <div class="services-icon">
+                                <i class="fa fa-area-chart"></i>
+                            </div>
+                            <div class="services-content">
+                                <h3>LORA</h3> <!--edit the service you give-->
+                                <p>Create networks with longer ranges with Semtech's wireless LoRa technology.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="single-services text-center">
+                            <div class="services-icon">
+                                <i class="fa fa-desktop"></i>
+                            </div>
+                            <div class="services-content">
+                                <h3>Marketing</h3> <!--edit the service you give-->
+                                <p>Doing Web Marketing is easy to earn money.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="single-services text-center">
+                            <div class="services-icon">
+                                <i class="fa fa-android" aria-hidden="true"></i>
+                            </div>
+                            <div class="services-content">
+                                <h3>App Developing</h3> <!--edit the service you give-->
+                                <p>Developed soo many apps to make something cool.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Services Area Ends-->
+
+
+        <!--Portfolio Area Starts-->
+
+        <div class="portfolio-area section-padding" style="padding-top: 0px;">
+            <div class="container">
+                <div id="portfolio" class="row">
+                    <div class="col-md-12">
+                        <div class="section-header" style="margin-bottom: 25px;">
+                            <h2>Our Portfolio</h2>
+                            <p class="line1"></p>
+                            <p class="line2"></p>
+                        </div>
+                    </div>
+                </div>
+
+             
+             
+
+                <div class="portfolio-images">
+                    <div class="row single-portfolio">
+
+                        <!-- single portfolio -->
+                        <div class="col-md-4 col-sm-6 mix">
+                            <div class="item">
+                                <a href="images/portfolio/1.jpg" class="galleryItem"><!--here you can change image-->
+                                    <img src="images/portfolio/small/1.jpg" alt="portfolio image"> <!--here you can change image-->
+                                    <span class="item-overlay">
+                                        <i class="fa fa-plus"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- single portfolio -->
+                        <div class="col-md-4 col-sm-6 mix web seo marketing">
+                            <div class="item">
+                                <a href="images/portfolio/2.jpg" class="galleryItem"> <!--here you can change image-->
+                                    <img src="images/portfolio/small/2.jpg" alt="portfolio image"> <!--here you can change image-->
+                                    <span class="item-overlay">
+                                        <i class="fa fa-plus"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- single portfolio -->
+                        <div class="col-md-4 col-sm-6 mix marketing freelancing graphics">
+                            <div class="item">
+                                <a href="images/portfolio/3.jpg" class="galleryItem"> <!--here you can change image-->
+                                    <img src="images/portfolio/small/3.jpg" alt=""> <!--here you can change image-->
+                                    <span class="item-overlay">
+                                        <i class="fa fa-plus"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div></div>
+                        
+                    <div class="row single-portfolio">
+                        
+                         <!-- single portfolio -->
+                        <div class="col-md-4 col-sm-6 mix seo graphic">
+                            <div class="item">
+                                <a href="images/portfolio/6.jpg" class="galleryItem"> <!--here you can change image-->
+                                    <img src="images/portfolio/small/6.jpg" alt="portfolio image"> <!--here you can change image-->
+                                    <span class="item-overlay">
+                                        <i class="fa fa-plus"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- single portfolio -->
+                        <div class="col-md-4 col-sm-6 mix graphics web freelancing seo">
+                            <div class="item">
+                                <a href="images/portfolio/4.jpg" class="galleryItem"> <!--here you can change image-->
+                                    <img src="images/portfolio/small/4.jpg" alt="portfolio image"> <!--here you can change image-->
+                                    <span class="item-overlay">
+                                        <i class="fa fa-plus"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- single portfolio -->
+                        <div class="col-md-4 col-sm-6 mix freelancing graphic marketing">
+                            <div class="item">
+                                <a href="images/portfolio/5.jpg" class="galleryItem"> <!--here you can change image-->
+                                    <img src="images/portfolio/small/5.jpg" alt="portfolio image"> <!--here you can change image-->
+                                    <span class="item-overlay">
+                                        <i class="fa fa-plus"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+
+                       
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Portfolio Area Ends-->
+
+        <!--Testimonial Area Starts-->
+
+        <!--<div id="testimonial" class="testimonial-area section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header">
+                            <h2>Team Members:</h2>
+                            <p class="line1"></p>
+                            <p class="line2"></p>
+                        </div>
+                    </div>
+                </div>
+                <div><div class="row">
+                    <div class="col-xs-12 col-md-8 col-md-offset-2">
+                        <div id="testimonial-slider" class="owl-carousel">
+                            <div class="single-testimonial">
+                                 
+                                <div class="pic">
+                                    <img src="images/testimonial/testi1.jpg" alt="testimonial image"> 
+                                </div>
+                                <div class="testimonial-title">
+                                    <h3>Jack Reacher</h3> 
+                                    <small>Web Developer</small> 
+                                </div>
+                            </div>
+
+                            <div class="single-testimonial">
+                                <div class="testimonial-content">
+                                    <p>My Team member specialized in Web Designing.</p>
+                                </div>
+                                <div class="pic">
+                                    <img src="images/testimonial/testi2.jpg" alt="testimonial image">
+                                </div>
+                                <div class="testimonial-title">
+                                    <h3>David Doe</h3> 
+                                    <small>Web Designer</small> 
+                                </div>
+                            </div>
+
+                            <div class="single-testimonial">
+                                <div class="testimonial-content">
+                                    <p>My Team member specialized in PHP.</p>
+                                </div> 
+                                <div class="pic">
+                                    <img src="images/testimonial/testi3.jpg" alt="testimonial image"> 
+                                </div>
+                                <div class="testimonial-title">
+                                    <h3>Shane Doe</h3> 
+                                    <small>PHP Developer</small> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div></div>
+            </div>
+        </div>-->
+
+        <!--Testimonial Area Ends-->
+        <!--Contact Area Starts-->
+
+        <div id="contact" class="contact-area section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header">
+                            <h2>Contact</h2>
+                            <p class="line1"></p>
+                            <p class="line2"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 box-contact-form">
+
+                        <form id="contact-form" method="post" action="http://CInGrous Labsthemes.com/CInGrous Labs/contact.php">
+
+                            <div class="messages"></div> <!--you can change the message in contact.php file -->
+
+                            <div class="controls">
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input id="data1" type="text" name="name" class="form-control" placeholder="Enter your full name *" required="required" data-error="Fullname is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input id="data2" type="email" name="email" class="form-control" placeholder="Enter your email *" required="required" data-error="Valid email is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea id="data3" name="message" class="form-control" placeholder="Your Message *" rows="4" required="required" data-error="Leave a message for me"></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button class="btn btn-send" value="" id="submit" onclick="test()">Send message</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </form>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+       
+        <!--Contact Area Ends-->
+        
+        
+        
+        <!--Footer Area Starts-->
+
+        <div class="footer-area">
+            <div class="container">
+            <table style="width:100%">
+            <tr>
+                <th style="width:50%">
+                <!--Map Starts-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15661.640601878667!2d76.9986128!3d11.0827784!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x37ebac74781210fe!2sCInGrous+Labs!5e0!3m2!1sen!2sin!4v1533887693539" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <!--Map Ends-->
+                </th>
+                <th style="width:50%" class="con_det">
+                <font size="6">Contact Us</font> <br>
+                <i class="fa fa-globe fa-lg icons" aria-hidden="true"></i>: CinGrous Labs, KGISL Campus, Saravanampatti,<br> <span class="adjust">Coimbatore - 641 035, Tamil Nadu, India. </span> <br>
+                <i class="fa fa-lg fa-envelope icons" aria-hidden="true"></i> : info@cingrouslabs.com<br>
+                    <table><tr><td><i class="fa fa-2x fa-mobile icons" aria-hidden="true" > </i></td><td class="phone"> : 8973760860, 7200803616</td></tr></table>
+                    
+                <div class="socials">
+                    <a href="https://twitter.com/cingrouslabs" target="_blank"> <!--add your twitter profile link-->
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="https://www.facebook.com/cingrouslabs/" target="_blank"> <!--add your facebook profile link-->
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="https://in.linkedin.com/company/cingrous-labs" target="_blank"> <!--add your facebook profile link-->
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </div>    
+                    
+                </th>
+                
+            </tr>
+            </table>           
+            
+            </div>
+        </div>
+        
+        
+        
+
+        <!--Footer Area Ends-->
+        <!---GOOGLE FIREBASE CONNECTIVITY--->
+        
+        <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-firestore.js"></script>
+        
+        <script src="https://www.gstatic.com/firebasejs/5.4.0/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyDIht2N0sLzybhvEazzO3ysjYQHl3JYdks",
+            authDomain: "cingrous-831ac.firebaseapp.com",
+            databaseURL: "https://cingrous-831ac.firebaseio.com",
+            projectId: "cingrous-831ac",
+            storageBucket: "",
+            messagingSenderId: "420259013011"
+          };
+          firebase.initializeApp(config);
+        </script>
+        <script src="js/index.js"></script>
+        
+        <!---GOOGLE FIREBASE CONNECTIVITY--->
+
+
+
+        <!--Latest version JQuery-->
+        <script src="js/jquery-3.2.1.min.js"></script>
+
+        <!--Bootstrap js-->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!--Magnific popup js-->
+        <script src="js/jquery.magnific-popup.js"></script>
+
+        <!--Owl Carousel js-->
+        <script src="js/owl.carousel.js"></script>
+
+        <!--Mixitup js-->
+        <script src="js/jquery.mixitup.js"></script>
+
+        <!--Owl Carousel js-->
+        <script src="js/owl.carousel.js"></script>
+
+        <!--Typed js-->
+        <script src="js/typed.js"></script>
+
+        <!--particle js-->
+        <script src="js/particles.js"></script>
+        <script src="js/app.js"></script>
+
+        <!--Validator js-->
+        <script src="js/validator.js"></script>
+
+        <!--Contact js-->
+        <script src="js/contact.js"></script>
+
+        <!--Main js-->
+        <script src="js/main.js"></script>
+        
+<script type="text/javascript">(function(t,e){var r=function(t){try{var r=e.head||e.getElementsByTagName("head")[0];a=e.createElement("script");a.setAttribute("type","text/javascript");a.setAttribute("src",t);r.appendChild(a);}catch(t){}};t.CollectId = "5b51ef662b9d7bd5e5f7f1a9";r("https://collectcdn.com/launcher.js");})(window,document);</script>
+
+    </body>
+
+<!-- Mirrored from CInGrous Labsthemes.com/CInGrous Labs/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Dec 2017 00:39:27 GMT -->
+</html>
